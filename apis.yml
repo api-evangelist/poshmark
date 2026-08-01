@@ -1,8 +1,26 @@
 aid: poshmark
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/poshmark.png
 name: Poshmark
-description: 'Poshmark is a company surfaced as a portfolio company of ggv-capital, kindred-ventures,
-  mayfield, menlo-ventures, uncork-capital and added to the API Evangelist network as a stub for enrichment.
-  Sector: marketplace. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Poshmark is a social commerce marketplace where people in the US, Canada,
+  Australia and India buy and sell new and secondhand fashion, accessories, home goods,
+  beauty products, and electronics. Sellers list items from their closets, share and
+  cross-promote listings across the community, host live selling shows, and ship using
+  prepaid labels while Poshmark handles payments and buyer protection. Founded 2011,
+  IPO 2021, acquired by Naver in 2023. Poshmark runs a consumer web and mobile
+  marketplace backed by internal APIs but does not publish a public developer API,
+  SDK, or developer portal; this profile captures its public web, security, and
+  identity surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/poshmark/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Marketplace
+- Resale
+- Fashion
+- E-Commerce
+- Social Commerce
+- Secondhand
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -28,4 +52,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.poshmark.com/
+  url: https://poshmark.com/
+- type: Blog
+  url: https://blog.poshmark.com/
+- type: Support
+  url: https://poshmark.com/faq
+- type: TermsOfService
+  url: https://poshmark.com/terms
+- type: PrivacyPolicy
+  url: https://poshmark.com/privacy
+- type: SignUp
+  url: https://poshmark.com/signup
+- type: GitHubOrganization
+  url: https://github.com/poshmark
+- type: DomainSecurity
+  url: security/poshmark-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
